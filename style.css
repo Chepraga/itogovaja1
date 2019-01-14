@@ -1,0 +1,120 @@
+body {
+	font-family: 'PT Serif', serif;
+}
+ul, li  {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	background: url('img/background.jpg'); 
+	color: white;
+	padding-top: 42px;
+}
+.menu__item a {
+	font-size: 14px;
+	font-weight: 700;
+	color: white;
+	font-family: 'PT Serif', serif;
+}
+
+.menu__item p {
+	font-size: 13px;
+	font-weight: 400;
+	font-family: 'PT Sans';
+}
+.menu__item {
+	margin: 0 25px;
+}
+.offer h1{
+	font-size: 52px;
+	font-weight: 700;
+	padding-top: 159px;
+}
+.offer h2 {
+	font-size: 36px;
+	font-weight: 400;
+}
+.button__title {
+	padding-top: 40px;
+	font-size: 13px;
+	font-weight: 400;
+	font-family: 'PT Sans' sans-serif;
+}
+.text__scroll {
+	padding-top: 110px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'PT Sans' sans-serif;
+}
+.offer__info h3 {
+	padding-top: 170px;
+	font-size: 26px;
+}
+.offer__photo3 {
+	padding-top: 60px;
+}
+.offer__menu {
+	padding-top: 116px;
+}
+.offer__text {
+    padding-top: 190px;
+    padding-bottom: 220px;
+}
+.footer {
+	background-color: #000000;
+	padding-top: 50px;
+	color: white;
+}
+.menu__footer a {
+	color: white;
+	font-size: 13px;
+	font-weight: 400;
+	font-family: 'PT Sans' sans-serif;
+	
+}
+.menu__footer {
+	padding-bottom: 10px;
+}
+.footer__info p {
+	font-size: 13px;
+	font-weight: 400;
+	font-family: 'PT Sans' sans-serif;
+	padding-top: 10px;
+}
+.footer__info img {
+	padding-right: 20px;
+	padding-bottom: 50px;
+	padding-top: 10px;
+}
+
+.orange 
+{
+	background: #f36a3f;
+	border-color: #f36a3f;
+}
+
+.menu__item:hover a 
+{
+	color: #f36a3f;
+}
+
+/*для первой картинки нужны такие правила - не получается никак*/
+.offer__photo3 {
+    position: relative;
+    top: -30px;
+    left: 52px;
+    z-index: 1000;
+}
+
+	/*для второй картинки - тоже не получилось, и даже <br> не хочет работать теперь
+
+	внутри класса class="col-lg-6" нужно сделать такую структуру
+	<div class="row">
+		<div class="col-md-6">первая маленькая картинка</div>
+		<div class="col-md-6">вторая маленькая картинка</div>
+		<div class="col-md-12">длинная картинка</div>
+	</div>
+
+*/
